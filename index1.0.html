@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="./assets/lib/Plyr/css/plyr.css">
+    <script src="./assets/lib/Plyr/js/plyr.js"></script>
+    <link href="./assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+
+    <style>
+        body {
+            background-color: #ffffff
+        }
+
+        .m {
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px;
+            margin-top: 100px;
+        }
+    </style>
+
+    </head>
+
+    <body>
+        <div class="m">
+            <video controls>
+                <source src="./assets/video/画中游.mp4" type="video/mp4" />
+            </video>
+            <script>plyr.setup();</script>
+        </div>
+
+        <h1>MV播放器</h1>
+        <p id="hitokoto"><span id="hitokoto_text">:D 获取中...</span></p>
+
+        <div>
+            <h4>播放列表</h4>
+            <ul>
+                <li value="./assets/video/画中游.mp4" title="画中游">画中游</li>
+                <li value="./assets/video/Windy Hill.mp4" title="Windy Hill">Windy Hill</li>
+                <li value="./assets/video/忆夏思乡.mp4" title="忆夏思乡">忆夏思乡</li>
+            </ul>
+            </aside>
+        </div>
+        <!-- <div class="player">
+            <video poster="#" controls crossorigin>
+                视频文件
+                <source src="./assets/video/We Can't Stop.mp4" type="video/mp4">
+                <source src="https://cdn.selz.com/plyr/1.0/movie.webm" type="video/webm">
+                字幕文件
+                <track kind="captions" label="English captions" src="https://cdn.selz.com/plyr/1.0/movie_captions_en.vtt"
+                    srclang="en" default>
+                针对不支持 <video> 元素的兼容
+                <a href="https://cdn.selz.com/plyr/1.0/movie.mp4">Download</a>
+            </video>
+        </div>
+        <script>plyr.setup();</script> -->
+    </body>
+
+</html>
