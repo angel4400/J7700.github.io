@@ -12,10 +12,10 @@
     var videoListLen = $('.player-list-video').length; // 视频列表长度
     var videoSpeed = 1; // 视频播放速度
     var videoListAll = new Array(
-      "https://lark-assets-prod-aliyun.oss-cn-hangzhou.aliyuncs.com/yuque/0/2022/mp4/23093680/1668342640692-492b2275-7408-4810-8102-bfaab8266c8f.mp4?OSSAccessKeyId=LTAI4GGhPJmQ4HWCmhDAn4F5&Expires=1668344450&Signature=hR9CWaHeV74GRU8%2BUw2WbdCKomE%3D&response-content-disposition=attachment%3Bfilename*%3DUTF-8%27%27%25E7%2594%25BB%25E4%25B8%25AD%25E6%25B8%25B8.mp4",
-      "https://lark-assets-prod-aliyun.oss-cn-hangzhou.aliyuncs.com/yuque/0/2022/mp4/23093680/1668337659717-ef67615d-e842-475a-86d1-9fd2119a6652.mp4?OSSAccessKeyId=LTAI4GGhPJmQ4HWCmhDAn4F5&Expires=1668344492&Signature=dohJBG2ssOVi599qcjA34w8hcMw%3D&response-content-disposition=attachment%3Bfilename*%3DUTF-8%27%27Windy%2520Hill.mp4",
-      "https://lark-assets-prod-aliyun.oss-cn-hangzhou.aliyuncs.com/yuque/0/2022/mp4/23093680/1668337758970-2b3e1688-5b84-4d13-bdbf-cd77d4f4c2c8.mp4?OSSAccessKeyId=LTAI4GGhPJmQ4HWCmhDAn4F5&Expires=1668340401&Signature=IjMnbBktstoCcUhcsCAt3n%2BrJGc%3D&response-content-disposition=attachment%3Bfilename*%3DUTF-8%27%27%25E5%25BF%2586%25E5%25A4%258F%25E6%2580%259D%25E4%25B9%25A1.mp4"
-    ); // 视频列表
+      "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3YvcyFBcnVOSlBoZ05kRExqZzVRb1pzOUQ0ZEY4TnRKP2U9TzJlc01j.mp4",
+      "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3YvcyFBcnVOSlBoZ05kRExqZ18zVEo2TF81VnBBdkkzP2U9WG1uSGUy.mp4",
+      "https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3YvcyFBcnVOSlBoZ05kRExqaERlMDdubm5NMUpFQWtsP2U9eWdwQzUy.mp4"
+    );// 视频列表
     var danId = 0; // 弹幕id
     var clickFlag = null; // 点击标识
     var vedioError = null; // 视频错误
